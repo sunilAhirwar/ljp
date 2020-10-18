@@ -214,6 +214,10 @@ footer{
 }
 
 @media (max-width: 768px) {
+  iframe{
+     width:100%;
+    height:auto;
+  }
   .search-bar{
      width:150px;
   }
@@ -225,9 +229,14 @@ footer{
   height: auto;
   margin-bottom: 20px;
   }
+  
 }
 
 @media (max-width: 498px) {
+  iframe{
+     width:100%;
+    height:auto;
+  }
   .search-bar{
      width:120px;
   }
