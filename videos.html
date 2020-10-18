@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo ml-4 mt-2 font-weight-bold ">
+          <a href="#">logo</a>
+        </div>
+        <div class="d-flex justify-content-end ">
+          <input class="search-bar" type="text" name="" value="">
+          <button class="search-btn" type="button" name="button"><i class="fa fa-search"></i></button>
+          <span class="menu-bar" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <div class="sidenav" id="sidenav">
+          <p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+          <div class="row mr-3">
+            <div class="col-md-6">
+              <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><p>home</p></a>
+            </div>
+            <div class="col-md-6">
+              <a href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><p>gallery</p></a>
+            </div>
+          </div>
+          <div class="row mr-3">
+            <div class="col-md-6">
+              <a href="blog.html"><i class="fa fa-pencil" aria-hidden="true"></i><p>blog</p></a>
+            </div>
+            <div class="col-md-6">
+              <a href="news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i><p>news</p></a>
+            </div>
+          </div>
+          <div class="row mr-3">
+            <div class="col-md-6">
+              <a href="videos.html"><i class="fa fa-film" aria-hidden="true"></i><p>videos</p></a>
+            </div>
+            <div class="col-md-6">
+              <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i><p>contact</p> </a>
+            </div>
+          </div>
+       </div>
+
+    </header>
+
+    <main>
+      <div class="container bg-white">
+        <h3>Videos</h3>
+        <div class="row">
+          <div class="col-md-6 border-bottom mr-3 mt-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vvhC64hQZMk" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+              picture-in-picture" allowfullscreen></iframe>
+              <p>this is the description of the video.</p>
+              <p>17 oct, 2020</p>
+          </div>
+          <div class="col-md-6 border-bottom mr-3 mt-3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4Q72kbwyEmk"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+            gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>this is the description of the 2nd video.</p>
+              <p>17 oct, 2020</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <footer>
+
+     <div class="container-fluid p-3">
+       <div class="row">
+         <div class="col-md-3 bottom-navigation">
+           <h3 class="category">navigation</h3>
+           <ul>
+             <li><a href="#">home</a></li>
+             <li><a href="#">gallery</a></li>
+             <li><a href="#">videos</a></li>
+             <li><a href="#">blog</a></li>
+             <li><a href="#">news</a></li>
+             <li><a href="#">events</a></li>
+             <li><a href="#">contact</a></li>
+           </ul>
+         </div>
+         <div class="col-md-6 newslatter">
+           <h3 class="category mb-4">newslatter</h3>
+           <form class="" action="index.html" method="post">
+             <input type="text" name="" value="" placeholder="enter your email address">
+             <button type="button" name="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+             <p>Subscribe for latest updates on email.</p>
+           </form>
+         </div>
+         <div class="col-md-3 social-icon">
+           <div class="row mt-5 ml-3">
+             <img src="img/img1.jpg" alt="">
+           </div>
+           <div class="row mt-5">
+             <div class="d-flex justify-content-center">
+                <a href="#" class="m-3"><i class='fa fa-facebook-f'></i></a>
+                <a href="#" class="m-3"><i class='fa fa-instagram'></i></a>
+                <a href="#" class="m-3"><i class='fa fa-twitter'></i></a>
+                <a href="#" class="m-3"><i class='fa fa-youtube'></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="container-fluid">
+         <p class="text-center text-white">copyright&copy;2020 All rights reserved.</p>
+       </div>
+     </div>
+
+    </footer>
+
+  </body>
+
+  <!-- menu bar open close script -->
+  <script>
+  function openNav() {
+    document.getElementById("sidenav").style.width = "280px";
+  }
+
+  function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+  }
+  </script>
+
+</html>

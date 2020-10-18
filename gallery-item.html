@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+        <div class="logo ml-4 mt-2 font-weight-bold ">
+          <a href="#">logo</a>
+        </div>
+        <div class="d-flex justify-content-end ">
+          <input class="search-bar" type="text" name="" value="">
+          <button class="search-btn" type="button" name="button"><i class="fa fa-search"></i></button>
+          <span class="menu-bar" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <div class="sidenav" id="sidenav">
+          <p href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</p>
+          <div class="row mr-3">
+            <div class="col-md-6">
+              <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><p>home</p></a>
+            </div>
+            <div class="col-md-6">
+              <a href="gallery.html"><i class="fa fa-camera" aria-hidden="true"></i><p>gallery</p></a>
+            </div>
+          </div>
+          <div class="row mr-3">
+            <div class="col-md-6">
+              <a href="blog.html"><i class="fa fa-pencil" aria-hidden="true"></i><p>blog</p></a>
+            </div>
+            <div class="col-md-6">
+              <a href="news.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i><p>news</p></a>
+            </div>
+          </div>
+          <div class="row mr-3">
+            <div class="col-md-6">
+              <a href="videos.html"><i class="fa fa-film" aria-hidden="true"></i><p>videos</p></a>
+            </div>
+            <div class="col-md-6">
+              <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i><p>contact</p> </a>
+            </div>
+          </div>
+       </div>
+
+    </header>
+    <main>
+      <div class="container bg-white">
+        <h4 my-4>single item gallery images</h4>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <img src="img/img1.jpg" alt="">
+          </div>
+          <div class="col-md-4 mb-4">
+            <img src="img/img1.jpg" alt="">
+          </div>
+          <div class="col-md-4 mb-4">
+            <img src="img/img1.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <img src="img/img1.jpg" alt="">
+          </div>
+          <div class="col-md-4 mb-4">
+            <img src="img/img1.jpg" alt="">
+          </div>
+          <div class="col-md-4 mb-4">
+            <img src="img/img1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </body>
+
+  <!-- menu bar open close script -->
+  <script>
+  function openNav() {
+    document.getElementById("sidenav").style.width = "280px";
+  }
+
+  function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+  }
+  </script>
+
+</html>
