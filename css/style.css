@@ -218,8 +218,13 @@ footer{
     width: 100%;
   }
   .newslatter input{
-    width: 250px;
+    width: 80%;
   }
+  .news-link img{
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
 }
 
 @media (max-width: 498px) {
@@ -227,7 +232,7 @@ footer{
     width: 100%;
   }
   .newslatter input{
-    width: 200px;
+    width: 80%;
   }
 }
 
