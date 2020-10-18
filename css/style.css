@@ -214,8 +214,8 @@ footer{
 }
 
 @media (max-width: 768px) {
-  .sidenav{
-    width: 100%;
+  .search-bar{
+     width:150px;
   }
   .newslatter input{
     width: 80%;
@@ -224,12 +224,12 @@ footer{
   width: 80%;
   height: auto;
   margin-bottom: 20px;
-}
+  }
 }
 
 @media (max-width: 498px) {
-  .sidenav{
-    width: 100%;
+  .search-bar{
+     width:120px;
   }
   .newslatter input{
     width: 80%;
