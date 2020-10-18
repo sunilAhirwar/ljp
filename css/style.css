@@ -212,3 +212,22 @@ footer{
 .social-icon a i{
    color: #fff;
 }
+
+@media (max-width: 768px) {
+  .sidenav{
+    width: 100%;
+  }
+  .newslatter input{
+    width: 250px;
+  }
+}
+
+@media (max-width: 498px) {
+  .sidenav{
+    width: 100%;
+  }
+  .newslatter input{
+    width: 200px;
+  }
+}
+
